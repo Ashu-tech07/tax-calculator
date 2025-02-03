@@ -48,7 +48,8 @@ function App() {
       { limit: 400000, rate: 0.10, label: "₹8,00,001 - ₹12,00,000" },
       { limit: 400000, rate: 0.15, label: "₹12,00,001 - ₹16,00,000" },
       { limit: 400000, rate: 0.20, label: "₹16,00,001 - ₹20,00,000" },
-      { limit: Infinity, rate: 0.25, label: "₹20,00,001 and above" }
+      { limit: 400000, rate: 0.25, label: "₹20,00,001 - ₹24,00,000" },
+      { limit: 400000, rate: 0.30, label: "₹24,00,001 and above" }
     ];
 
     let remainingIncome = netIncome - 400000;
